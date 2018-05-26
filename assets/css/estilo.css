@@ -1,0 +1,33 @@
+.TabControl{ width:100%; height: 100%;}
+.TabControl #header{ width:100%; border: solid 1px; overflow:hidden; cursor:hand}
+.TabControl #content{ width:100%; border: solid 1px;overflow:hidden; height:200%; }
+.TabControl .abas{display:inline;}
+.TabControl .abas li{float:left}
+.aba{width:100px; height:30px; border:solid 1px; border-radius:5px 5px 0 0;
+  text-align:center; padding-top:5px; background:#3A5FCD}
+.ativa{width:100px; height:30px; border:solid 1 px; border-radius:5px 5px 0 0;
+  text-align:center; padding-top:5px; background:#27408B;}
+.ativa span, .selected span{color:#fff}
+.TabControl #content{background:#27408B}
+.TabControl .conteudo{width:100%;  background:#27408B; display:none; height:100%;color:#fff}
+.selected{width:100px; height:30px; border:solid 1 px; border-radius:5px 5px 0 0;
+text-align:center; padding-top:5px; background:#27408B
+  }
+
+  @charset "utf-8";
+  /* latin-ext */
+  @font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v12/yQiAaD56cjx1AooMTSghGfY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v12/0dTEPzkLWceF7z0koJaX1A.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+  }
